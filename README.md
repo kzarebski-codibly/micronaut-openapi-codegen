@@ -11,6 +11,7 @@
  * clientId: id for generated clients (if no client id is provided no interface will be generated)
  * useBeanValidation: generate validation annotations
  * useGenericResponse: return generic container or specifc model (e.g. `Model` vs. `HttpResponse<Model>`)
+ * supportAsync: use reactivex return type `io.reactivex.Single`, see [Reactive HTTP Request Processing](https://docs.micronaut.io/1.3.3/guide/index.html#reactiveServer)
 
 ### Not supported
 

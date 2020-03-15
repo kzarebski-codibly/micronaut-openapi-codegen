@@ -60,6 +60,7 @@ public class MicronautCodegen extends AbstractJavaCodegen
 
 		cliOptions.add(CliOption.newBoolean(USE_BEANVALIDATION, "Use BeanValidation API annotations", useBeanValidation));
 		cliOptions.add(CliOption.newBoolean(USE_GENERIC_RESPONSE, "Use generic response", useGenericResponse));
+		cliOptions.add(CliOption.newBoolean(SUPPORT_ASYNC, "Use async responses", supportAsync));
 		cliOptions.add(CliOption.newString(CLIENT_ID, "ClientId to use."));
 
 		// there is no documentation template yet
